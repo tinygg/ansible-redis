@@ -1,6 +1,6 @@
 ---
 ## Installation options
-cluster_mode: yes
+cluster_mode: "yes"
 redis_version: 5.0.5
 redis_install_dir: "/usr/lib/redis"
 redis_dir: "{{ redis_install_dir }}/{{ redis_port }}"
