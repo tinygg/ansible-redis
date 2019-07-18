@@ -1,7 +1,9 @@
 {{ ansible_managed | comment }}
 
-# General
+# Cluster Mode
 cluster-enabled {{ cluster_mode }}
+
+# General
 daemonize {{ redis_daemonize }}
 pidfile {{ redis_pidfile }}
 dir {{ redis_dir }}
