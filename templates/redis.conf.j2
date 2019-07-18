@@ -1,7 +1,7 @@
 {{ ansible_managed | comment }}
 
 # Cluster Mode
-cluster-enabled {{ cluster_mode }}
+cluster-enabled "{{ cluster_mode }}"
 
 # General
 daemonize {{ redis_daemonize }}
