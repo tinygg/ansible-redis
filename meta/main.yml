@@ -1,0 +1,26 @@
+---
+galaxy_info:
+  author: tinygg
+  description: ansible role redis (cluster and standalone mode)
+  min_ansible_version: 2.1.0
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: EL
+      versions:
+        - 7
+  categories:
+    - redis
+    - database:nosql
+  tags:
+    - redis
+    - ansible
+    - role
+    - tinygg
+
+dependencies: []
